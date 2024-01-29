@@ -1,6 +1,6 @@
 <div align=center>
  
-# 🚀 KATA DDOS V1 - Free DDoS Panel 🚀
+# 🚀 CYBER DDOS V1 - Free DDoS Panel 🚀
 
 # Get Username and pass at: https://link68.net/j4yHp0
 # README ♥️
@@ -73,7 +73,5 @@ remember: you are responsible for the attacks since this tool was created for ed
 ```
 
 # CONTACT:
-```sh
-FB: fb.com/katavn.2006
-Discord: katavnnn#8946
+https://t.me/Not_found_404_not_responding
 ```
