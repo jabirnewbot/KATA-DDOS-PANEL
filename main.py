@@ -29,50 +29,6 @@ ip= requests.get('https://api.ipify.org').text.strip()
 online= random.randint(1, 153)
 
 
-###Help Gif###
-def hlp(screen):
-    scenes = []
-    effects = [
-        Print(screen,
-              ColourImageFile(screen, "help.gif", screen.height,
-                              uni=screen.unicode_aware),
-              screen.height//- 5,
-              speed=1),
-    ]
-    scenes.append(Scene(effects, 24))
-
-    screen.play(scenes, stop_on_resize=False, repeat=False)
-###Attack gif###
-def atk(screen):
-    scenes = []
-    effects = [
-        Print(screen,
-              ColourImageFile(screen, "atk.gif", screen.height,
-                              uni=screen.unicode_aware),
-              screen.height//- 5,
-              speed=1),
-    ]
-    scenes.append(Scene(effects, 21))
-
-    screen.play(scenes, stop_on_resize=False, repeat=False)
-###Method gif###
-def mthd(screen):
-    scenes = []
-    effects = [
-        Print(screen,
-              ColourImageFile(screen, "methods.gif", screen.height,
-                              uni=screen.unicode_aware),
-              screen.height//- 5,
-              speed=0.5),
-    ]
-    scenes.append(Scene(effects, 20))
-
-    screen.play(scenes, stop_on_resize=False, repeat=False)
-
-###COPYRIGHT tool###
-def si():
-    print('       \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mKata \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mWelcome to CYBER DDoS! \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mOwner: @Not_found_404_not_responding \x1b[38;2;0;255;255m| \x1b[38;2;233;233;233mVersion: 1')
-
 ###My ip####
 def mip():
     print(f"""\x1b[0mYour IP Is \x1b[40;38;2;127;0;255m{ip}\x1b[0m""")
